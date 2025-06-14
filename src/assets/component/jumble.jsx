@@ -40,27 +40,16 @@ const api_url = 'https://random-word-api.vercel.app/api?words=100'
 useEffect(() => { 
   fetch(api_url,{
     method: 'GET',
-/*headers: {
-  'X-Api-Key': 'go6IdnxQmR6hXv4kCvC0Vg==Ly4c6WRIjjDWT4cA',
-}*/
-  })// Wrap the API call in a useEffect hook
-    
-    /*const options = {
-      method: 'GET',
-      headers: {
-        'X-Api-Key': 'go6IdnxQmR6hXv4kCvC0Vg==Ly4c6WRIjjDWT4cA',
-      }
-    };*/
 
     .then(res => res.json())
-  .then(data => setWordData(data))
+    .then(data => setWordData(data))
   
 }, []);
 
 
 const[isRunning, setIsRunning]=React.useState(false)
 const intervalRef=useRef(null)
-const[timer, setTimer]=React.useState(60)
+const[timer, setTimer]=React.useState(30)
 
 
 
@@ -84,7 +73,7 @@ const stopTime= () => {
 
 
 const reset = () => {
-  setTimer(60)
+  setTimer(30)
   startTime
 }
 
