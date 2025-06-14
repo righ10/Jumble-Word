@@ -39,7 +39,8 @@ const api_url = 'https://random-word-api.vercel.app/api?words=100'
 
 useEffect(() => { 
   fetch(api_url,{
-    method: 'GET',
+    method: 'GET'
+  })
 
     .then(res => res.json())
     .then(data => setWordData(data))
