@@ -12,6 +12,6 @@ This is an Jumble Word Game built using HTML , CSS , Javascript,ReactJs and Tail
 
 # Link
 
--
+-https://jumble-word.netlify.app/
 
 
