@@ -1,7 +1,7 @@
 # 🤝 Jumble Word Game🤝
 
 
-This is an Jumble Word Game built using HTML , CSS , Javascript, TailwindCss.
+This is an Jumble Word Game built using HTML , CSS , Javascript,ReactJs and TailwindCss.
 <hr>
 
 # Features
