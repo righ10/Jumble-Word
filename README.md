@@ -10,8 +10,8 @@ This is an Jumble Word Game built using HTML , CSS , Javascript,ReactJs and Tail
 
 -Its contain timer user have a 30 seconds to guess the word correct spelling of the given word.
 
-# Link
+# Live Preview
+-https://jumbleword-game.netlify.app/
 
--https://jumble-word.netlify.app/
 
 
